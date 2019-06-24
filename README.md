@@ -6,10 +6,14 @@ User will be able to select which day or days of the week to activate the alarm.
 Once the alarm time has been set, app will loop daily or weekly.
 You can use any music file as an alarm. (tested with .mp3)
 
+![alarm](./images/demo.gif)
+
 # Prerequisites
 
 What you need to install and how to install them
-* Windows 10:
+
+- Windows 10:
+
 ```
 Python 3.5
 
@@ -18,11 +22,12 @@ pip install pycaw
 pip install pydub
 pip install comtypes
 ```
-* Ubuntu and Mac, FFMPEG must be installed.
-** Ubuntu:
-> sudo apt install ffmpeg
-** Mac:
-> brew install ffmpeg
+
+- Ubuntu and Mac, FFMPEG must be installed.
+  - Ubuntu:
+    > sudo apt install ffmpeg
+  - Mac:
+    > brew install ffmpeg
 
 ## Installing
 
@@ -41,8 +46,9 @@ Pip install everything.
 ### Tested on Windows 10, Ubuntu 18.04, Mac OSX (High Sierra, Mojave)
 
 In terminal, cd to the directory where you saved this app, then do the following:
-1) Type: python run_app.py
-2) Select an option from the menu, then follow the instructions
-6) Once all of the required settings has been set, Alarm will turn on and you are good to go
-7) Press 'ctrl + c' to snooze
-8) Press 'ctrl + c' again to quit
+
+1. Type: python run_app.py
+2. Select an option from the menu, then follow the instructions
+3. Once all of the required settings has been set, Alarm will turn on and you are good to go
+4. Press 'ctrl + c' to snooze
+5. Press 'ctrl + c' again to quit
