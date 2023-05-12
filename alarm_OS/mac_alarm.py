@@ -81,7 +81,10 @@ def mac_app(ringtone=None, vol=None):
     Runs alarm app
     """
     if ringtone is None:
-        ringtone = "audio/sample.mp3"
+        import os
+        import sys
+        current_path = os.path.dirname(os.path.realpath(sys.argv[0]))
+        ringtone = current_path + "/audio/sample.mp3"
     if vol is None:
         vol = "60"
     mute_status = check_mute()
